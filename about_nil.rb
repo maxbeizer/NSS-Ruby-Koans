@@ -19,7 +19,7 @@ class AboutNil < EdgeCase::Koan
       # (HINT: replace __ with part of the error message.)
       assert_match(/`some_method_nil_doesnt_know_about'/, ex.message)
     end
-  end
+ end
 
   def test_nil_has_a_few_methods_defined_on_it
     assert_equal true, nil.nil?
